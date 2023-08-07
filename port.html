@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu Portifoli</title>
+    <link rel="stylesheet" href="port.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,700,0,0" />
+</head>
+<body>
+    <nav>
+        <span class="material-symbols-outlined" id="icon">
+            brightness_medium
+            </span>
+            <ul>
+                <li><a href="#sb">Sobre mim</a></li>
+                <li><a href="#os">Oque sei</a></li>
+                <li><a href="#pj">Projetos</a></li>
+            </ul>
+    </nav>
+
+    <div class="eu" id="sb">
+
+        <div class="info">
+            <div class="cont">
+            <h3>Olá, eu me chamo Fabio </h3>
+            <a href="https://www.instagram.com/dos_guedes/" target="_blank"><img src="icons8-instagram-48.png"></a>
+            <a href="https://github.com/Gu3d3s" target="_blank"><img src="icons8-github-50.png"></a>
+            <a href="cr.pdf" download="meu curriculo"><img src="icons8-curriculum-vitae-50.png" class=""></a>
+            </div>
+            <div class="fabinho">
+
+            <div class="text">
+                <h1><span class="py">py</span><span class="thon">thon</span></h1>
+                <h1><span class="java">java</span></h1>
+                <h1><span class="ht">ht</span>ml</h1>
+                <p>Sou intermediario/básico em<br> python, java e html/css</p>
+            </div>
+
+            <div class="foto"></div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <div class="os" id="os">
+        
+        <div class="wrapped">
+            <div class="item">
+                <div class="ic">
+                    <img src="icons8-python-48.png">
+                    <h2><span class="py">py</span><span class="thon">thon</span></h2>
+                </div>
+                <p class="nv">intermediario</p>
+                <ul>
+                    <li class="hr">rank 366333 (hackerrank PYTHON)</li>
+                    <li>uso de módulos</li>
+                    <li>Manipulação de textos</li>
+                    <li>estrutura condicional</li>
+                    <li>estruturas de repetição (for/while)</li>
+                    <li>tuplas</li>
+                    <li>listas</li>
+                    <li>função</li>
+                    <li>uso da bilioteca pandas</li>
+                    <li>um pouco de plotly express</li>
+                </ul>
+            </div>
+            <div class="item">
+                <div class="ic">
+                    <img src="icons8-logo-java-coffee-cup-48.png">
+                    <h2><span class="java">java</span></h2>
+                </div>
+                <p class="nv">básico</p>
+                <ul>
+                    <li>estrutura condicional</li>
+                    <li>switch</li>
+                    <li>for</li>
+                    <li>operador ternario</li>
+                    
+                </ul>
+            </div>
+            <div class="item">
+                <div class="ic">
+                    <img src="icons8-html-48.png">
+                    <h2><span class="ht">ht</span>ml</h2>
+                </div>
+                <p class="nv">intermediario</p>
+                <ul>
+                    <li>responsividade</li>
+                    <li>html semantico</li>
+                    <li>posicionamento</li>
+                    <li>criação de formularios</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <div class="pj" id="pj">
+        <div class="sp">
+        <h1 class="dr_c">dr<span>.</span>consulta</h1>
+        <div class="dr">
+            <div class="dr-foto"></div>
+            <div class="dr-sobre">
+                <h2>Este é um projeto proposto pelo<br>meu professor, que consiste em<br>criar
+                um site parecido ou igual<br>ao site do dr.consulta, só que com<br>algumas funções
+                que de acessibilidade,<br>que o original não tem</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+
+        var icon  = document.getElementById('icon')
+
+        icon.onclick = function(){
+          document.body.classList.toggle('white-theme')
+        }
+
+      </script>
+
+</body>
+</html>
